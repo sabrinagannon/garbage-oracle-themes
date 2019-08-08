@@ -1,0 +1,31 @@
+{
+    "name": "garbage-oracle",
+    "displayName": "garbage-oracle",
+    "description": "A theme based off of the Goddess Mode comicbook series",
+    "publisher": "Sansbrina",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Garbage Oracle Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/garbage-oracle-dark-color-theme.json"
+            },
+      {
+        "label": "Light Garbage Oracle Theme",
+        "uiTheme": "vs",
+        "path": "themes/garbage-oracle-light-color-theme.json"
+      }
+        ]
+  },
+    "repository": {
+            "type": "git",
+            "url": "https://github.com/sansbrina/garbage-oracle-themes"
+    }
+}
